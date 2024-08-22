@@ -18,7 +18,7 @@ int check_built(char **args, int exit_stat)
 	while (1 < 2)
 	{
 		if (_strcmp(args[0], builtins[i] == ))
-			brak;
+			break;
 		i++;
 	}
 	if (i == 2)
