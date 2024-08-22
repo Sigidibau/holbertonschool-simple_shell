@@ -23,7 +23,7 @@ int check_built(char **args, int exit_stat)
 	}
 	if (i == 2)
 		return (-1);
-	if (_strcmp(buitlins[i], "env) == 0)
+	if (_strcmp(builtins[i], "env) == 0)
 	{
 		if (environ == NULL)
 			return (0);
