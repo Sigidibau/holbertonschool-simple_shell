@@ -8,13 +8,14 @@
 
 void mem_free(char *entry)
 {
-	if (isatty(STDIN_FILENO))
+	if (entry != NULL)
 	{
-		_putchar('\n');
+		if (isatty(STDIN_FILENO))
+		{
+			_putchar('\n');
+		}
 		free(entry);
 	}
-	if (!isatty(STDIN_FILENO))
-		free(entry);
 }
 
 
